@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    background-color: orange;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: flex;
+}
+
+@media only screen and(width:auto) {
+    html, body, #urlapp {
+        height: auto;
+    }
+}
+
+#urlapp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+#urlinput {
+    border: 2px solid #000;
+    border-radius: 25px;
+    width: 300px;
+    height: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: lightgray;
+    color: #000;
+    margin: 10px;
+}
+
+#urlbutton {
+    border: 2px solid #000;
+    border-radius: 25px;
+    width: auto;
+    height: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: lightgray;
+    color: #000;
+    margin: 10px;
+}
